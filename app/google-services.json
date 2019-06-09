@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "282286261253",
+    "firebase_url": "https://dbforshoplist.firebaseio.com",
+    "project_id": "dbforshoplist",
+    "storage_bucket": "dbforshoplist.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282286261253:android:0c7350b86fc63c7c",
+        "android_client_info": {
+          "package_name": "com.example.feuler.shoplist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282286261253-64812pocr8vvve92jgprq9r0gk4imo1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.feuler.shoplist",
+            "certificate_hash": "9f4caeb199e9d01e36f941db95fb7bd72af248d0"
+          }
+        },
+        {
+          "client_id": "282286261253-h50a1ege2cct8o24i19qi3b8vpe89ojp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDikOnYDih888saOY1771QwJwoYXjML4H4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282286261253-h50a1ege2cct8o24i19qi3b8vpe89ojp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

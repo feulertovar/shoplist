@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".viewmodel.MainActivity"
+    android:background="@drawable/googlepixel">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_barshop_layout"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+
+        <LinearLayout
+            android:id="@+id/text_fields_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/user_name"
+                style="@style/AppTheme.Subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="-2dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                tools:text="Name:" />
+
+            <TextView
+                android:id="@+id/budget"
+                style="@style/AppTheme.Subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/greySecondary"
+                android:layout_below="@+id/user_name"
+                android:layout_marginBottom="4dp"
+                tools:text="Budget:" />
+
+            <TextView
+                android:id="@+id/bank"
+                style="@style/AppTheme.Subheader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/budget"
+                android:layout_marginBottom="4dp"
+                android:textColor="@color/greySecondary"
+                tools:text="Bank:" />
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <!-- Main Shop List recycler -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_items_shop"
+        android:layout_marginTop="20dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/app_bar_layout"
+        android:background="@android:color/white"
+        tools:listitem="@layout/item_shoplist" />
+
+    <!-- Shadow below toolbar -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layout_below="@+id/filter_bar_container"
+        android:background="@drawable/bg_shadow" />
+
+    <!-- Empty list (pizza guy) view -->
+    <LinearLayout
+        android:id="@+id/view_empty_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone"
+        tools:visibility="gone">
+
+
+        <TextView
+            style="@style/AppTheme.Body1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="message_no_results"
+            android:textColor="@color/greyDisabled" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

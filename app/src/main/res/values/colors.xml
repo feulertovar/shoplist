@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#819FB2</color>
+    <color name="colorPrimaryDark">#819FB3</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGoButton">#ADE19C</color>
+
+    <color name="greyPrimary">#DE000000</color>
+    <color name="greySecondary">#8B000000</color>
+    <color name="greyDisabled">#61000000</color>
+    <color name="yellowError">#61000000</color>
+    <color name="design_textinput_error_color_light" tools:override="true">#FAFBC9</color>
+</resources>

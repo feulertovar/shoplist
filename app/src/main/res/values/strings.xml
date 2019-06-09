@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Shoplist</string>
+    <string name="user_name">Name</string>
+    <string name="budget">Budget</string>
+    <string name="bank">Bank</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_quantity">Quantity</string>
+    <string name="item_price">Price</string>
+    <string name="item_priority">Priority</string>
+    <string name="action_button">Add</string>
+    <string name="title_activity_display">DisplayActivity</string>
+    <string name="home">Home</string>
+    <string name="shop_list">List</string>
+    <string name="new_list">New</string>
+
+</resources>
